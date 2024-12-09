@@ -1,3 +1,9 @@
+# note by じょん
+Jsonの整形
+brew install jq
+
+jq . input.geojson > output.geojson
+
 # GeoJSON API
 
 このリポジトリは、CSV もしくは Excel フォーマットのデータを GitHub Actions で GeoJSON に変換し API として公開するためのテンプレートリポジトリです。
