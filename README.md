@@ -4,6 +4,9 @@ brew install jq
 
 jq . input.geojson > output.geojson
 
+*URLの形式*
+http://john-ichigogasuki.github.io/geojson-api/<filneame>.json
+
 # GeoJSON API
 
 このリポジトリは、CSV もしくは Excel フォーマットのデータを GitHub Actions で GeoJSON に変換し API として公開するためのテンプレートリポジトリです。
